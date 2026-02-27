@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Build files
+*.o
+*.d
+obj/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Images (release separately)
+*.img
+*.img.xz
+*.img.gz

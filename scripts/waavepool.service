@@ -1,0 +1,14 @@
+[Unit]
+Description=Waaave Pool Visual Synth
+After=multi-user.target
+
+[Service]
+Type=simple
+User=miapi
+Environment=HOME=/home/miapi
+ExecStart=/usr/bin/xinit /home/miapi/start_waavepool.sh -- :0 -nocursor
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
