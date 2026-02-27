@@ -23,13 +23,17 @@ The modified source files are included in `src/` - just copy them over the origi
 
 ## Pre-built Image
 
-Flash the image and you're done:
+**Download:** [waavepool_pi5_1080p.img.xz](https://drive.google.com/file/d/12DMCpA8CoG-VFM0qjZTukl10zxnK-8f-/view?usp=sharing)
+
+- Requires 32GB SD card (~9GB uncompressed)
+- SSH username: `miapi`
+- SSH password: `mia`
+
+Flash with Raspberry Pi Imager (supports .xz directly) or dd:
 
 ```bash
 xzcat waavepool_pi5_1080p.img.xz | sudo dd of=/dev/rdiskX bs=4m status=progress
 ```
-
-**Credentials:** `miapi` / `mia`
 
 ---
 
