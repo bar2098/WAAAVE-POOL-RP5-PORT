@@ -1,3 +1,5 @@
+
+
 # WAAAVE_POOL for Raspberry Pi 5
 
 Run waaave_pool video synthesizer on Raspberry Pi 5 at **1920x1080 @ 60fps**.
@@ -148,6 +150,8 @@ Copy `scripts/start_waavepool.sh` to home directory:
 cp /path/to/this/repo/scripts/start_waavepool.sh ~/
 chmod +x ~/start_waavepool.sh
 ```
+
+The provided script expects the app at `/home/miapi/WAAAVE_POOL`; if your user is not `miapi`, edit that path in the script before installing.
 
 **CRITICAL:** The script uses semicolons (`;`) not OR (`||`) to set BOTH HDMI outputs. This fixes the stretching bug.
 
